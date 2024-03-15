@@ -1,0 +1,95 @@
+@import "../../app.scss";
+
+.experience-wrapper{
+    margin: 5%;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+        img{
+            height: 50px;
+            width: 50px;
+            @include mobile {
+                height: 30px;
+                width: 30px;
+              }
+        }
+    }
+}
+
+.horizontal-scrollable-cards-container {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: auto;
+
+  
+    .cards-wrapper {
+      display: flex;
+      padding: 20px;
+      flex-wrap: nowrap; /* Prevent cards from wrapping to the next line */
+    }
+  
+    .card {
+      flex: 0 0 auto; /* Prevent cards from stretching */
+      width: 32.5%; /* Adjust the width as needed */
+      margin-right: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      .card-content {
+        max-height: 150px; /* Set a fixed height for the content */
+        overflow-y: scroll; /* Allow vertical scrolling for overflowing content */ 
+        .downArrow{
+            height: 0px;
+            margin-left: 40%;
+          }
+      }
+      h3 {
+        margin-top: 0;
+      }
+  
+      h4 {
+        margin-top: 5px;
+        font-size: 18px;
+      }
+  
+      p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      @include mobile {
+        width: 100%;
+        scroll-snap-align: center;
+      }
+    }
+    .card :hover{
+        
+    }
+  }
+  .working{
+    position: absolute;
+    pointer-events: none;
+    img{
+      margin-left: 10%;
+      margin-top: 10%;
+        height: 300px;
+        width: 300px;
+        opacity: .2;
+    }
+    
+  }
+.light{
+  .card{
+    border: 2px solid black;
+  }
+}
+  
+  
