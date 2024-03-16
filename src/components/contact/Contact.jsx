@@ -30,22 +30,15 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
-        formRef.current,
-        "pX_2hasGmGcuvjXIW"
-      )
-      .then(
-        (result) => {
-          setSuccess(true)
-        },
-        (error) => {
-          setError(true);
-        }
-      );
+    emailjs.sendForm('gmail', 'template_pz4qfert', formRef.current, 'user_HYImqyNA2H0p8YsBrLgBTtytrc')
+    .then(
+      (result) => {
+        setSuccess(true)
+      },
+      (error) => {
+        setError(true);
+      }
+    );
   };
 
   return (

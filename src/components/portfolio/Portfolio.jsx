@@ -51,7 +51,6 @@ const Single = ({ item }) => {
   const openModal = _ => {
     setShow(prevStatte => !prevStatte);
   };
-  console.log("nk")
   return (
     <section id="Portfolio">
       <div className="container">

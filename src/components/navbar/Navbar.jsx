@@ -1,12 +1,9 @@
-import { useThemeStore } from "../../storez";
 import Sidebar from "../sidebar/Sidebar";
 import SwitchTheme from "../switch/Switch";
 import "./navbar.scss";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
-  const { theme, changeTheme } = useThemeStore()
-  console.log("sam",changeTheme)
   return (
     <div className="navbar">
       {/* Sidebar */}

@@ -10,8 +10,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import { useThemeStore } from "./storez";
 
 const App = () => {
-  const { theme, changeTheme } = useThemeStore()
-  console.log("theme",theme)
+  const { theme } = useThemeStore()
   return (
     <div className={theme}>
       <Cursor />
