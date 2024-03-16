@@ -2,6 +2,13 @@
 
 .experience-wrapper{
     margin: 5%;
+    .title{
+      display: flex;
+      justify-content: center;
+    }
+    @include mobile {
+      padding-top: 5%;
+    }
 }
 .skills-container{
     display: flex;
@@ -20,7 +27,9 @@
                 width: 30px;
               }
         }
+        
     }
+    
 }
 
 .horizontal-scrollable-cards-container {

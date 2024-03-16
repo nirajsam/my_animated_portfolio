@@ -60,7 +60,7 @@ export default function Experience() {
       ]
   return (
     <div className='experience-wrapper' id={theme}>
-        <h2>SKILLS</h2>
+        <h2 className='title'>SKILLS</h2><hr />
         <ul className='skills-container' role='list' tabIndex={0}>
             <li className="skills" role='listitem'>
                 <img src="/logos/react.png" alt=""  />
@@ -118,9 +118,9 @@ export default function Experience() {
         </ul>
 
         {/* <div className="working"><img src="/working.gif" alt="Your GIF" /></div> */}
-       
-        <h2>WORKING EXPERIENCES</h2>
-        <span style={{fontSize:'10px'}}>-- scroll right to see more---</span>
+       <br />
+        <h2 className='title'>WORKING EXPERIENCES</h2>
+        <span style={{fontSize:'10px'}} className='scroll title'>-- scroll right to see more---</span><hr />
         <div className="horizontal-scrollable-cards-container" onScroll={handleScroll} tabIndex={0}>
         <div className="working" ><img src="/working.gif" alt="Your GIF" /></div>
             <div className="cards-wrapper" role='list'>
