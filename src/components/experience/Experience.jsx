@@ -26,7 +26,7 @@ export default function Experience() {
             title: 'Experience Engineering level 2',
             duration: '15/9/2021 – PRESENT',
             location: 'Bangalore',
-            project: 'VERIZON',
+            project: 'RIZON',
             projectDuration: '01/01/2023 - present',
             description: 'Just started Working on this project as a React Developer'         
         },
@@ -35,9 +35,9 @@ export default function Experience() {
           title: 'Experience Engineering level 2',
           duration: '15/9/2021 – PRESENT',
           location: 'Bangalore',
-          project: 'USBANK',
+          project: 'ABCBANK',
           projectDuration: '01/01/2022 - 30/12/2023',
-          description: 'Developed an external offers consent microapp in React JS, enhancing website performance through module Federation and shared code implementation.Implemented features for adding and managing external accounts, while migrating microapps from JavaScript to TypeScript within a monorepo structure using turborepo. Additionally, enhanced logging, error handling, and A/B testing methodologies, leveraging Splunk for logs monitoring. Employed webpack, Context API, GraphQL, React Testing Library, and adhered to SOLID design principles and USBank-specific design components in an Atomic Design Pattern approach.',
+          description: 'Developed an external offers consent microapp in React JS, enhancing website performance through module Federation and shared code implementation.Implemented features for adding and managing external accounts, while migrating microapps from JavaScript to TypeScript within a monorepo structure using turborepo. Additionally, enhanced logging, error handling, and A/B testing methodologies, leveraging Splunk for logs monitoring. Employed webpack, Context API, GraphQL, React Testing Library, and adhered to SOLID design principles and ABCsBank-specific design components in an Atomic Design Pattern approach.',
         },
         {
           company: 'INFOSYS',
